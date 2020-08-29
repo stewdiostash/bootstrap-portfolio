@@ -8,12 +8,38 @@ h5 {
     color: #4AAAA5;
 }
 
+body {
+    /* background: #EBEBEB; */
+    background-image: url("../images/ignasi_pattern_s.png");
+    background-repeat: repeat;
+}
+
 #logo {
     color: white;
     background: #4AAAA5;
     padding: 10px 0px;
+    margin-left: 10px;
 }
 
-.navbar-expand-lg {
-    float-right;
+.page-header {
+    margin-bottom: 30px;
+}
+
+.container {
+    margin: 80px 30px;
+    background: white;
+    padding: 30px;
+}
+
+img {
+    border: none;
+}
+
+.no-margin {
+    margin: 0px!important;
+}
+
+.port-img img {
+    width: 100%;
+    margin-bottom: 30px;
 }
