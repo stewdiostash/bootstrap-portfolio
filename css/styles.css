@@ -8,7 +8,7 @@ h5 {
     color: #4AAAA5;
 }
 
-html, body {
+html, body, .wrapper{
     height: 100%;
 }
 
@@ -20,7 +20,7 @@ body {
 .wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .container {
@@ -28,6 +28,10 @@ body {
     background: white;
     padding: 30px;
     flex: 1 0 auto;
+}
+
+#flex-spacer {
+    height: 100%;
 }
 
 #logo {
@@ -44,7 +48,7 @@ body {
 footer {
     display: flex;
     justify-content: center;
-    flex: 1 0 auto;
+    flex: 0 0 auto;
     padding: 16px;
     border-top: 6px solid #4AAAA5;
     background: #666666;
@@ -63,4 +67,20 @@ footer p {
 
 .page-header p {
     clear: both;
+}
+
+.form-control  {
+    border-radius: 0%;
+}
+
+.form-group {
+    margin-left: 15px;
+}
+
+.btn-primary {
+    background: #4AAAA5;
+    padding: 0 30px;
+    border-radius: 0%;
+    border-style: none;
+    height: 54px;
 }
