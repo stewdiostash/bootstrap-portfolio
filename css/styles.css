@@ -8,10 +8,26 @@ h5 {
     color: #4AAAA5;
 }
 
+html, body, .wrapper {
+    height: 100%;
+}
+
 body {
-    /* background: #EBEBEB; */
     background-image: url("../images/ignasi_pattern_s.png");
     background-repeat: repeat;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    margin: 80px 30px;
+    background: white;
+    padding: 30px;
+    flex: 1 0 auto;
 }
 
 #logo {
@@ -25,21 +41,26 @@ body {
     margin-bottom: 30px;
 }
 
-.container {
-    margin: 80px 30px;
-    background: white;
-    padding: 30px;
-}
+footer {
+    display: flex;
+    justify-content: center;
+    flex: 1 0 auto;
+    padding: 16px;
+    border-top: 6px solid #4AAAA5;
+    background: #666666;
+    color: #6C757D;
+    margin: 0;
+  }
 
-img {
-    border: none;
-}
-
-.no-margin {
-    margin: 0px!important;
-}
+footer p {
+    margin: 0;
+}  
 
 .port-img img {
     width: 100%;
     margin-bottom: 30px;
+}
+
+.page-header p {
+    clear: both;
 }
