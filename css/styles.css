@@ -8,23 +8,20 @@ h5 {
     color: #4AAAA5;
 }
 
-html, body, .wrapper{
+html, body {
     height: 100%;
 }
 
 body {
     background-image: url("../images/ignasi_pattern_s.png");
     background-repeat: repeat;
-}
-
-.wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 .container {
-    margin: 80px 30px;
+    margin: 80px 30px 50px;
     background: white;
     padding: 30px;
     flex: 1 0 auto;
