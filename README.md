@@ -1,41 +1,27 @@
-# hw-01-code-refactor
+# hw-02-bootstrap-portfolio
+
 
 ## Table of Contents
 
 * [Description](#description)
-* [HTML Updates](#html)
-* [CSS Updates](#css)
+* [Screenshot](#screenshot)
 * [Contributions](#contributions)
 * [License](#license)
 
 
-![Horiseon Home Page](assets/images/horiseon.jpg)
-
-
 ## Description
 
-The assignment objective was to clean up and consolidate the HTML and CSS of this marketing company's webpage in order to:
-- Make the page's content more accessible
-- Improve the readability and sustainability of the code
+This responsive portfolio template was created as an exercise to explore the various breakpoint and spacing classes available in Bootstrap. 
 
 
-## HTML Updates
-- Replaced all Divs with semantic HTML tags: Header, Nav, Main, Section, Aside and Footer
-- Linked all Nav items to sections with IDs
-- Replaced all one-off classes with IDs
-- Added Alt tags to all images and icons
-- Removed unnecessary '/' from Img tags
-- Added Role and Aria-label tags to Hero section (see [Contributions](#contributions))
+## Screenshot
 
-
-## CSS Refactor
-- Selectors and properties consolidated
-- Code re-ordered to match semantic structure of HTML
-- Commented section headers added
-- Type styles defined in a discreet section
+![Horiseon Home Page](images/bootstrap_about.png)
 
 
 ## Contributions
+
+Built using [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 
 I used a modified version of the flexbox sticky footer described on [CSS Tricks](https://css-tricks.com/couple-takes-sticky-footer/)
 

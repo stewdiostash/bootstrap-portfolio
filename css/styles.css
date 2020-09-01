@@ -1,3 +1,5 @@
+/* General page elements */
+
 h1, 
 h2, 
 h3, 
@@ -20,15 +22,8 @@ body {
     justify-content: space-between;
 }
 
-.container {
-    margin: 80px 30px 50px;
-    background: white;
-    padding: 30px;
-    flex: 1 0 auto;
-}
-
-#flex-spacer {
-    height: 100%;
+.page-header {
+    margin-bottom: 30px;
 }
 
 #logo {
@@ -38,8 +33,15 @@ body {
     margin-left: 10px;
 }
 
-.page-header {
-    margin-bottom: 30px;
+.container {
+    margin: 80px 30px 50px;
+    background: white;
+    padding: 30px;
+    flex: 1 0 auto;
+}
+
+#flex-spacer {
+    height: 100%;
 }
 
 footer {
@@ -55,16 +57,18 @@ footer {
 
 footer p {
     margin: 0;
-}  
+}
+
+
+/* Portfolio */
 
 .port-img img {
-    /* width: 100%; */
+    width: 100%;
     margin-bottom: 30px;
 }
 
-.page-header p {
-    clear: both;
-}
+
+/* Contact */
 
 .form-control  {
     border-radius: 0%;
@@ -81,6 +85,9 @@ footer p {
     border-style: none;
     height: 54px;
 }
+
+
+/* Responsive Margins */
 
 @media only screen and (max-width: 768px) {
     
