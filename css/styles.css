@@ -58,7 +58,7 @@ footer p {
 }  
 
 .port-img img {
-    width: 100%;
+    /* width: 100%; */
     margin-bottom: 30px;
 }
 
@@ -81,3 +81,20 @@ footer p {
     border-style: none;
     height: 54px;
 }
+
+@media only screen and (max-width: 768px) {
+    
+    .container {
+        margin: 80px 40px 50px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .container {
+        margin: 80px auto 50px;
+    }
+
+}
+
