@@ -5,6 +5,7 @@
 
 * [Description](#description)
 * [Screenshot](#screenshot)
+* [URL](#url)
 * [Contributions](#contributions)
 * [License](#license)
 
@@ -17,6 +18,10 @@ This responsive portfolio template was created as an exercise to explore the var
 ## Screenshot
 
 ![Horiseon Home Page](images/bootstrap_about.png)
+
+
+## URL
+Deployed at https://stewdiostash.github.io/hw-02-bootstrap-portfolio
 
 
 ## Contributions
